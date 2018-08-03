@@ -4,7 +4,7 @@
     <item
         android:id="@+id/navigation_orders"
         android:icon="@drawable/medical_history"
-        android:title="طلباتي" />
+        android:title="حالاتي" />
 
     <item
         android:id="@+id/navigation_state"
