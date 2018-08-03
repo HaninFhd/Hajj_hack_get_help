@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/medical_history"
+        android:title="طلباتي" />
+
+    <item
+        android:id="@+id/navigation_state"
+        android:icon="@drawable/refresh_left_arrow"
+        android:title="حالة الطلب" />
+
+    <item
+        android:id="@+id/navigation_get_help"
+        android:icon="@drawable/drone"
+        android:title="طلب خدمة" />
+
+
+</menu>

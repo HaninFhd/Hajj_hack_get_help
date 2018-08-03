@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="accent_material_light">#c8d82d</color>
+    <color name="foreground_material_light">#dae574</color>
+    <color name="lightGrean">#dae574</color>
+    <color name="secondary_text_material_light">#c8d82d</color>
+    <color name="darkOrange">#eb774e</color>
+    <color name="lightOrange">#f2a78c </color>
+    <color name="botton">#C8D82D</color>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/left_arrow"
+            android:layout_weight="90"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="طلب خدمة"
+            android:gravity="center"
+            android:layout_weight="10"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="الحالة المرضية :"
+        android:layout_margin="10dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp">
+        <RadioButton
+            android:id="@+id/highly_urgent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@android:color/transparent"
+            android:background="#ff3333"
+            android:textColor="@color/white"
+            android:text="خطيرة" />
+
+        <RadioButton
+            android:id="@+id/moderat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ff6633"
+            android:textColor="@color/white"
+            android:button="@android:color/transparent"
+            android:text="متوسطة" />
+
+
+
+        <RadioButton
+            android:id="@+id/urgent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:checked="true"
+            android:padding="10dp"
+            android:background="#ff9933"
+            android:textColor="@color/white"
+            android:button="@android:color/transparent"
+            android:text="بسيطة" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="شرح الحالة :"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/rounded"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/case_desc"
+            android:padding="10dp"
+            android:singleLine="false"
+            android:layout_margin="20dp" />
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginTop="16dp"
+        android:text="إرسال"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSignup" />
+</LinearLayout>
